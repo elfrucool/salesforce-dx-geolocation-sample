@@ -3,7 +3,7 @@
     
     <ltng:require styles="/resource/leaflet/leaflet.css"
                   scripts="/resource/leaflet/leaflet.js"
-                  afterScriptLoaded="{!c.jsLoaded}">
+                  afterScriptsLoaded="{!c.jsLoaded}"/>
 
     <div id="map"/>
 </aura:component>
